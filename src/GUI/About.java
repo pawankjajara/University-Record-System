@@ -32,19 +32,19 @@ public class About extends JFrame {
 		lblThisProjectIs.setBounds(10, 11, 268, 14);
 		contentPane.add(lblThisProjectIs);
 		
-		JLabel lblMadhaviFale = new JLabel("Madhavi Fale");
+		JLabel lblMadhaviFale = new JLabel("M Fale");
 		lblMadhaviFale.setBounds(10, 36, 189, 14);
 		contentPane.add(lblMadhaviFale);
 		
-		JLabel lblRuchitaBora = new JLabel("Ruchita Bora");
+		JLabel lblRuchitaBora = new JLabel("R Bora");
 		lblRuchitaBora.setBounds(10, 60, 138, 14);
 		contentPane.add(lblRuchitaBora);
 		
-		JLabel lblSagarDhedia = new JLabel("Sagar Dhedia");
+		JLabel lblSagarDhedia = new JLabel("S Dhedia");
 		lblSagarDhedia.setBounds(10, 85, 138, 14);
 		contentPane.add(lblSagarDhedia);
 		
-		JLabel lblPawankumarJajara = new JLabel("Pawankumar Jajara");
+		JLabel lblPawankumarJajara = new JLabel("PK Jajara");
 		lblPawankumarJajara.setBounds(10, 110, 154, 14);
 		contentPane.add(lblPawankumarJajara);
 		
