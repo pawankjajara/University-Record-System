@@ -3,6 +3,8 @@ package GUI;
 //import universitySystem.*;
 
 import java.awt.EventQueue;
+import java.lang.Integer;
+import java.lang.String;
 import java.util.ArrayList;
 import java.awt.Font;
 import java.awt.TextArea;
@@ -31,6 +33,7 @@ import javax.swing.JTextField;
 import javax.swing.border.EmptyBorder;
 
 import URS.UniversityClient;
+import org.omg.CORBA.ExceptionList;
 
 public class AddOfficeHours extends JFrame {
 
@@ -45,6 +48,7 @@ public class AddOfficeHours extends JFrame {
 	public UniversityClient uc;
 	public TextMessage TMReceive;
 	String response,array[];
+    String sample="sample";
 	
 	public AddOfficeHours() {
 		setTitle("Add Office Hours");
@@ -78,7 +82,7 @@ public class AddOfficeHours extends JFrame {
 					response = TMReceive.getText();
 					array=response.split("\n");
 										
-					textArea_Response.append("\nRequestID: "+array[0]+" "+" "+ExceptionList.exceptionList[Integer.parseInt(array[1])]);					
+					textArea_Response.append("\nRequestID: "+array[0]+" "+" "+ ExceptionList.exceptionList[Integer.parseInt(array[1])]);
 					
 				} catch (JMSException e) {
 					// TODO Auto-generated catch block
