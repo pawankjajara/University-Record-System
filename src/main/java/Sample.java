@@ -15,8 +15,16 @@ public class Sample {
     public void setAge(int age) {
         this.age = age;
     }
+    
+    public void setSex(char c){
+        this.sex=c;
+    }
 
+    public char getSex(){
+        return sex;
+    }
     int age;
     String name;
+    char sex;
 
 }
