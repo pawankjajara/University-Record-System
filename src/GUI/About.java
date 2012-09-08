@@ -44,7 +44,7 @@ public class About extends JFrame {
 		lblSagarDhedia.setBounds(10, 85, 138, 14);
 		contentPane.add(lblSagarDhedia);
 		
-		JLabel lblPawankumarJajara = new JLabel("PK Jajara");
+		JLabel lblPawankumarJajara = new JLabel("Pawankumarass Jajara");
 		lblPawankumarJajara.setBounds(10, 110, 154, 14);
 		contentPane.add(lblPawankumarJajara);
 		
